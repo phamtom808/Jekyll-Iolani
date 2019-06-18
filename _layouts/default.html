@@ -1,0 +1,12 @@
+<!-- this is a default template for each page in Jekyll-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title> <!-- the title variable is substituted for each page-->
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{ content }} <!-- places each page's content in the body-->
+  </body>
+</html>
