@@ -1,0 +1,29 @@
+url: https://phamtom808.github.io
+baseurl: /agency-jekyll-theme/
+
+# Site settings
+title: Iolani School - Research Education (rEDU)
+email: dpham@mines.edu
+description: Iolani School's brand new library website. 
+
+
+# Team names, titles
+people:
+- name: Ashlyn Okamoto
+  pic: 1
+  position: Co-Lead
+
+
+- name: Dane Pham
+  pic: 2
+
+
+# Postal address 
+address:
+  - line: Iolani School
+  - line: 563 Kamoku St
+  - line: Honolulu HI, 96826
+
+# Build settings
+markdown: kramdown
+permalink: pretty

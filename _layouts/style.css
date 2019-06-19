@@ -1,0 +1,4 @@
+/* loads all the css style files in one place */
+{% include css/bootstrap.min.css %}
+{% include css/agency.css %}
+{{ content }}
