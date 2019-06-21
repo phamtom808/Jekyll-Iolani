@@ -10,6 +10,8 @@
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * 
+ * Basically this CSS file defines all the visual elements for the website(color, font, size, etc.)
  */
 
 body {
@@ -277,7 +279,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/agency-jekyll-theme//img/header-bg.jpg');
+    background-image: url('/Jekyll-Iolani//img/home.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -666,7 +668,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/agency-jekyll-theme//img/map-image.png');
+    background-image: url('/Jekyll-Iolani//img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
