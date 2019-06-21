@@ -1,10 +1,10 @@
 # Jekyll-Iolani
 
-This is a website designed to help self-modivated students with their research.
+This is a website designed to help students with their research.
 
 ## Installation
 
-To edit this website, we recommend familiarizing yourself with Jekyll first. You will also need to install Ruby, RubyGems, an IDE, and Git if you haven't already done so. Either pull from the repository or download the zip file to get the source code. From there, use the command "jekyll source" or "jekyll build" in command prompt to generate the website when ready.
+To edit this website, we recommend familiarizing yourself with Jekyll first. You will also need to install [Ruby](https://rubyinstaller.org/), [RubyGems](https://guides.rubygems.org/rubygems-basics/#installing-gems), an IDE, and [Git](https://git-scm.com/) if you haven't already done so. Either pull from the repository or download the zip file to get the source code. From there, use the command "jekyll source" or "jekyll build" in command prompt to generate the website when ready.
 
 ## Usage
 
