@@ -886,3 +886,11 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
+/* Personal CSS templates */
+.info-button{
+    color: black;
+}
+.info-button:hover{
+    color: white;
+}
+
