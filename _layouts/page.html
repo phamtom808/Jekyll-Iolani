@@ -7,11 +7,12 @@
 
     <body id="page-top" class="index">
 
-    <!-- we are basically including every html page in the home -->
-    {% include navigation.html}
-    {%include handouts.html}
+    <!-- we are including only the naviagtion, handouts, and footer files -->
+    {% include headerWithoutPicture.html %}
+    {% include handout_grid.html %}  
     {% include modals.html %}
     {% include js.html %}
     {% include footer.html %}
+    
     </body>
 </html>

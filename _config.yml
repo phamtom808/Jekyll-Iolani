@@ -17,19 +17,7 @@ people:
 - name: Dane Pham
   pic: 2
   position: Co-Developer
-
-#Collections
-collections:
-  tutorials:
-    output: true
-    permalink: /tutorials/:title/
-  handouts:
-    output: true
-    permalink: /handouts/:title/
-  about-us:
-    output: true
-    permalink: /about/:title/
-
+  
 # Postal address 
 address:
   - line: Iolani School
