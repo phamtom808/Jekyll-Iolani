@@ -182,18 +182,18 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .navbar-default .navbar-toggle {
@@ -243,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #000;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -274,7 +274,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/home.jpg');
+    background-image: url('{{ site.baseurl }}/img/background.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -336,7 +336,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 section h3.section-subheading {
@@ -379,8 +379,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    /*background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: {{ site.data.template.color.primary }};
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -884,4 +884,12 @@ body {
 }
 .info-button:hover{
     color: white;
+}
+
+.tutorial-section-header{
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgba(0,0,0,.5);
+    border-radius: 4px;
+
 }
