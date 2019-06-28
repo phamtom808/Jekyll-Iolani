@@ -739,7 +739,7 @@ footer span.copyright {
 footer span.permissions {
     text-transform: uppercase;
     text-transform: none;
-    font-family: {{ site.data.template.font.arial }};
+    font-family: {{ site.data.template.font.primary }};
     line-height: 30px;
 }
 
