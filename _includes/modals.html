@@ -17,16 +17,12 @@
                         <!--<img src="{{site.baseurl}}/img/handouts/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"> -->
                         <p>{{ post.description }}</p>
                         <ul class="list-inline item-details">
-                            <li>Client:
-                                <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                            <li>Student:
+                                <strong><a href="http://startbootstrap.com">{{ post.student }}</a>
                                 </strong>
                             </li>
                             <li>Date:
                                 <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                </strong>
-                            </li>
-                            <li>Service:
-                                <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
                                 </strong>
                             </li>
                         </ul>
@@ -39,6 +35,7 @@
         </div>
         <div class="body" align="left" >
                <!-- {% include_relative  postHTML/emailProf.md %} -->
+               <img src="{{site.baseurl}}/img/handouts/{{ post.thumbnail }}" class="img-responsive img-centered" alt="" style="height: 50%; width: 50%;">    
         </div>
     </div>
 </div>

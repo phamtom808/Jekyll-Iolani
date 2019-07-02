@@ -11,7 +11,7 @@ img: banana.jpg
 thumbnail: banana.jpg
 alt: image-alt
 project-date: June 2019
-client: Start Bootstrap
+student: Start Bootstrap
 pdf-title: emailBasics.pdf
 description: professional email
 

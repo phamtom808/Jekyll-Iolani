@@ -12,7 +12,7 @@ thumbnail: emailBasics.jpg
 markdownTitle: postHTML/emailBasics.html
 alt: image-alt
 project-date: June 2019
-client: Start Bootstrap
+student: Start Bootstrap
 pdf-title: emailBasics.pdf
 description: generic discription for now.
 

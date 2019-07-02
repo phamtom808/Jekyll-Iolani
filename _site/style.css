@@ -282,7 +282,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/Jekyll-Iolani//img/background.png');
+    background-image: url('/img/background.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -418,7 +418,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #f7f7f7;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -669,7 +669,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/Jekyll-Iolani//img/map-image.png');
+    background-image: url('/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
