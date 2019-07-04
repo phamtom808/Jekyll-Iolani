@@ -1,8 +1,8 @@
 ---
 title: Email Basics
-subtitle: A simple how-to guide on writing a professional email.
+subtitle: A simple how-to guide on writing an email.
 type: tutorial
-topic: fruit
+topic: how-to guides
 layout: default
 author: ashlyn
 modal-id: 2
