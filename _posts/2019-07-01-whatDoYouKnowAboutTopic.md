@@ -9,6 +9,7 @@ modal-id: 5
 date: 2019-07-01
 img: WhatDoYouKnowAboutYourTopic.png
 thumbnail: WhatDoYouKnowAboutYourTopic.png
+htmlTitle: postHTML/topicExploration.html
 alt: image-alt
 project-date: July 2019
 student: Upper School 

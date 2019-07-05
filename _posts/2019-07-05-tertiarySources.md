@@ -1,19 +1,19 @@
 ---
-title: Databases
-subtitle: A list of all the databases the library has
+title: Tertiary Sources
+subtitle: How to identify tertiary sources
 type: tutorial
 topic: research
 layout: default
 author: ashlyn
-modal-id: 6
-date: 2019-07-03
-img: emailBasics.jpg
+modal-id: 7
+date: 2019-07-05
+img: 
 thumbnail: emailBasics.jpg
-htmlTitle: postHTML/databaseURL.html
+htmlTitle: postHTML/tertiarySources.html
 alt: image-alt
 project-date: July 2019
 student: Upper School Students
-pdf-title: emailBasics.pdf
+pdf-title:
 description: generic discription for now.
 
 ---
