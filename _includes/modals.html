@@ -13,22 +13,21 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body">
                         <h2>{{ post.title }}</h2>
-                        <hr class="star-primary">
-                        <!--<img "site.baseurl}}/img/handouts/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"> -->
+                        {% if post.description != nil %}
+                            <hr class="star-primary">
+                        {% endif %}
                         <p>{{ post.description }}</p>
-                        <ul class="list-inline item-details">
-                            <li>Student:
-                                <strong><a href="http://startbootstrap.com">{{ post.student }}</a>
-                                </strong>
-                            </li>
+                        <ul class="list-inline item-details" style="text-align:right;">
                             <li>Date:
                                 <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
                                 </strong>
                             </li>
                         </ul>
-                        <form action = "{{site.baseurl}}/pdf/{{post.pdf-title}}" method="get" target="_blank">
-                            <button type="submit" class="btn btn-default"><i class="fas fa-download"></i> PDF</button>
-                        </form>
+                        {% if post.pdf-title != nil %}
+                            <form action = "{{site.baseurl}}/pdf/{{post.pdf-title}}" method="get" target="_blank">
+                                <button type="submit" class="btn btn-default"><i class="fas fa-download"></i> PDF</button>
+                            </form>
+                        {% endif %}
                     </div>
                 </div>
             </div>

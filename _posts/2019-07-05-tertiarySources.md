@@ -12,8 +12,7 @@ thumbnail: emailBasics.jpg
 htmlTitle: postHTML/tertiarySources.html
 alt: image-alt
 project-date: July 2019
-student: Upper School Students
+student:
 pdf-title:
-description: generic discription for now.
-
+description:
 ---
