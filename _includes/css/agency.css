@@ -249,7 +249,7 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all ease .35s;
     transition: all ease .35s;
     height:auto;
-    width:100%;
+    width:35%;
     padding:0;
     margin:0;
 }
@@ -272,8 +272,8 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all ease .35s;
         -moz-transition: all ease .35s;
         transition: all ease .35s;
-        height:10%;
-        width:10%;
+        height:auto;
+        width:30%;
     }
 
     .navbar-default .navbar-brand {
@@ -299,7 +299,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #000;
+    color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/background.png');
     background-position: center center;
