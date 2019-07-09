@@ -177,7 +177,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: rgb(0, 0, 0);
 }
 
 .navbar-default .navbar-brand {
@@ -193,7 +193,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: rgb(0, 0, 0);
 }
 
 .navbar-default .navbar-toggle {
@@ -209,6 +209,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle:focus {
     background-color: #{{ site.data.template.color.primary }};
 }
+
 
 .navbar-default .nav li a {
     text-transform: uppercase;
@@ -239,6 +240,20 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
+.navbar-button{
+    float:left;
+    background: transparent;
+    background-color:#000;
+    border:0px;
+    -webkit-transition: all ease .35s;
+    -moz-transition: all ease .35s;
+    transition: all ease .35s;
+    height:auto;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -247,6 +262,18 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
+    }
+
+    .navbar-button{
+        float:left;
+        background: transparent;
+        background-color:#000;
+        border:0px;
+        -webkit-transition: all ease .35s;
+        -moz-transition: all ease .35s;
+        transition: all ease .35s;
+        height:10%;
+        width:10%;
     }
 
     .navbar-default .navbar-brand {
@@ -262,7 +289,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #000;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -272,11 +299,11 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #000;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/background.png');
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -643,6 +670,8 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    height: 220px;
+    width: 220px;
 }
 
 .team-member h4 {
@@ -741,6 +770,7 @@ footer span.permissions {
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
     line-height: 30px;
+    text-align: right;
 }
 
 footer ul.quicklinks {
