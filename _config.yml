@@ -15,13 +15,17 @@ people:
   position: Co-Developer
   bio: Ashlyn graduated from Iolani School in 2017. She is currently studying Computer Science at Portland State University and plans to pursue a career in cybersecurity.
 
-
-
 - name: Dane Pham
   pic: 2
   position: Co-Developer
   bio: Dane graduated from Iolani School in 2017. He is currently studying Computer Science at Colorado School of Mines and plans to pursue a career in the Air Force as a Cyberwarfare Officer.
   
+- name: Teachers
+  pic: 3
+  position: Co-Developer
+  bio: hello
+
+
 # Postal address 
 address:
   - line: Iolani School
