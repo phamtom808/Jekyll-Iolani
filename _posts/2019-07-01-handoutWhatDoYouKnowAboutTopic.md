@@ -1,16 +1,16 @@
 ---
 title: Topic Exploration
 subtitle: What do you know about your topic?
-type: tutorial
-topic: research
+type: handout
+topic: 
 layout: default
 author: Ashlyn
-modal-id: 5
+modal-id: 4
 date: 2019-07-01
-img: WhatDoYouKnowAboutYourTopic.png
+img: 
 thumbnail: WhatDoYouKnowAboutYourTopic.png
-fontAwesome: fas fa-book 
-iconColor: iconOrange
+fontAwesome: 
+iconColor: 
 htmlTitle: postHTML/topicExploration.html
 alt: image-alt
 project-date: July 2019

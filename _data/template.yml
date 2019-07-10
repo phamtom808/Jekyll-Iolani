@@ -6,6 +6,11 @@ color:
   secondary: 75706b
   secondary-dark: 333
   muted: 777
+  iconBlue: 4a90e2
+  iconGreen: 417505
+  iconBrown: 8b572a
+  iconOrange: dd8425
+
 
 # Font Families
 font:

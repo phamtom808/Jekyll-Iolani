@@ -46,7 +46,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.muted}};
 
 }
 
@@ -424,11 +424,12 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #dc3c37;
+    color:{{ site.data.template.color.secondary }};
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
+    color:{{ site.data.template.color.secondary }};
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
@@ -532,7 +533,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #{{site.data.template.color.primary}};
 }
 
 .timeline>li .timeline-image h4 {
@@ -934,4 +935,9 @@ body {
     border-radius: 4px;
     padding: 35px 10px 10px 10px;
     margin-bottom: 50px;
+}
+
+.img-size{
+    height:300px;
+    width:230px;
 }

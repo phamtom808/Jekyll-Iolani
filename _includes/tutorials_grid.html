@@ -23,14 +23,10 @@
                     {% for post in topic.items %} 
                         
                         <div class="row tutorial-section-header" >
-                            <div class="col-md-6 col-sm-6 portfolio-item">
-                                <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fas fa-plus fa-3x"></i>
-                                        </div>
-                                    </div>
-                                    <img src="{{site.baseurl}}/img/handouts/{{ post.thumbnail }}" width="170" height="300" class="img-responsive img-centered" alt="">
+                            <div class="col-md-6 col-sm-6 portfolio-item tutorial-button">
+                                <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal" style="text-align:center; color:#{{ site.data.template.color.[post.iconColor] }};">
+                                    <i class="{{post.fontAwesome}} fa-10x"></i>
+                                    <!--<img src="{{site.baseurl}}/img/handouts/{{ post.thumbnail }}" width="170" height="300" class="img-responsive img-centered" alt=""> -->
                                 </a>
                             </div>
                             <div class="col-md-6 col-sm-6 portfolio-caption">
