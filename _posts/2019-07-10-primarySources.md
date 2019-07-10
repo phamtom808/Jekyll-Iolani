@@ -11,7 +11,7 @@ img:
 thumbnail: 
 fontAwesome: fas fa-book
 iconColor: iconOrange
-htmlTitle: postHTML/primaryySources.html
+htmlTitle: postHTML/primarySources.html
 alt: image-alt
 project-date: July 2019
 student:
