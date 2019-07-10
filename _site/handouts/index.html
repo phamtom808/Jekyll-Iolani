@@ -35,24 +35,75 @@
 
     <!-- we are including only the naviagtion, handouts, and footer files -->
     <!-- Navigation -->
-<nav class="navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        
-        <link class="col-md-4 col-xs-3 navbar-button navbar-shrink" rel="next" target="_blank" href='https://iolani.libguides.com/uslibrary'>
+        <button class="col-md-4 col-xs-3 navbar-button navbar-shrink" target="_blank" onclick="window.open('https://iolani.libguides.com/uslibrary');">
             <img src="/img/LibraryHorizontal.png" style="height:auto; width:100%;">
-        </link>
+        </button>
+        <!-- Brand and toggle get grouped for better mobile display --> 
+        <div class="page-scroll">
+            <button type="nav navbar-right button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+    </div>
 
+     <!--groups tutorial and handout posts in an array called type with two elements-->
+     
+     <!--groups tutorial and handout posts by type-->
+     
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="">Home</a>
+                    <a class="page-scroll" href="http://localhost:4000">Home</a>
                 </li>
+                <li>
+                    <a class="page-scroll" href="#page-top">Top</a>
+                </li>
+                <li>
+                    <a class="page-scroll" hidden></a>
+                </li>
+
+            <!--  DROPDOWN BUTTON FOR SHORTCUT TO TOPIC FOR TUTORIAL PAGE  
+                <li class="page-scroll">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Topics
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            
+                                
+                                    <a class="dropdown-menu">
+                                        <a class="dropdown-item" href="#research">research</a>
+                                    </a>
+                                
+                            
+                                
+                            
+                                
+                                    <a class="dropdown-menu">
+                                        <a class="dropdown-item" href="#how-to guides">how-to guides</a>
+                                    </a>
+                                
+                            
+                                
+                                    <a class="dropdown-menu">
+                                        <a class="dropdown-item" href="#other helpful stuff">other helpful stuff</a>
+                                    </a>
+                                
+                            
+                        </div>
+                </li>
+            -->
+
             </ul>
         </div>
-
-        
     </div>
+        <!-- /.navbar-collapse -->
+</div>
     <!-- /.container-fluid -->
 </nav>
 
@@ -901,12 +952,22 @@
         <div class="body" align="left" >
                 
                     
-                        <head>
+                        <style>
+        .email
+        {
+          padding: 20px;
+          font-size:30px;
+          margin: auto;
+          width: 70%;
+          display:relative;
+        }
+</style>
 
+<head>
 </head>
-      
+    
 <body>
-    <div>
+    <div class= email>
       <p>Upper school students are constantly emailing and communicating with     teachers. In order to avoid any sorts of embarrassment, here’s a set     of rules to follow when writing an email to a teacher.</p>
       <h4 id="subject-lines"><strong>Subject Lines</strong></h4>
       <p>The subject line is one of the most important parts of an email because this is what the teacher first sees. Your subject line needs to catch your reader’s eye and convey the message that it needs to be opened.</p>
@@ -945,6 +1006,10 @@
       </code></pre>
       </li>
       </ul>
+
+      <iframe src="https://libapps.iolani.org/wp-admin/admin-ajax.php?action=h5p_embed&id=1" width="958" height="564" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+      <script src="https://libapps.iolani.org/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
       <h4 id="message-text"><strong>Message Text</strong></h4>
       <ul>
       <li>
@@ -978,8 +1043,9 @@
           Thank you,
               STUDENT NAME
       </code></pre>
-      </div>
-</body>
+      
+    </div>
+    </body>
 
                     
                 

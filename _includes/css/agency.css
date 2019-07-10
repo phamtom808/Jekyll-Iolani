@@ -74,12 +74,14 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.secondary }};
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
+    font-weight: 300;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.secondary }};
+    width: 100px;
+    height: 60px;
 }
 
 .btn-primary:hover,
