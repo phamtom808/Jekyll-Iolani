@@ -854,9 +854,10 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .close-modal {
-    position: absolute;
+    position: relative;
+    z-index:800;
     top: 25px;
-    right: 25px;
+    right: 0px;
     width: 75px;
     height: 75px;
     background-color: transparent;
