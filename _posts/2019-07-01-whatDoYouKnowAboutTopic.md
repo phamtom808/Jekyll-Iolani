@@ -9,8 +9,8 @@ modal-id: 5
 date: 2019-07-01
 img: WhatDoYouKnowAboutYourTopic.png
 thumbnail: WhatDoYouKnowAboutYourTopic.png
-fontAwesome: fas fa-book 
-iconColor: iconOrange
+fontAwesome: fas fa-search 
+iconColor: iconBlueGrey
 htmlTitle: postHTML/topicExploration.html
 alt: image-alt
 project-date: July 2019

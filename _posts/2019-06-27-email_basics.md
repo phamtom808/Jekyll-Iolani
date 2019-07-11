@@ -9,8 +9,8 @@ modal-id: 2
 date: 2019-06-27
 img: emailBasics.jpg
 thumbnail: emailBasics.jpg
-fontAwesome: fas fa-book 
-iconColor: iconGreen
+fontAwesome: fas fa-paper-plane 
+iconColor: iconBlue
 htmlTitle: postHTML/emailBasics.html
 alt: image-alt
 project-date: June 2019

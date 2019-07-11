@@ -9,8 +9,8 @@ modal-id: 7
 date: 2019-07-05
 img: 
 thumbnail: emailBasics.jpg
-fontAwesome: fas fa-book 
-iconColor: iconBlue
+fontAwesome: fas fa-newspaper 
+iconColor: iconYellow
 htmlTitle: postHTML/tertiarySources.html
 alt: image-alt
 project-date: July 2019
