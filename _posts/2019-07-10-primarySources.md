@@ -10,7 +10,7 @@ date: 2019-07-10
 img:
 thumbnail: 
 fontAwesome: fas fa-newspaper
-iconColor: iconTurqoise
+iconColor: googleBlue
 htmlTitle: postHTML/primarySources.html
 alt: image-alt
 project-date: July 2019

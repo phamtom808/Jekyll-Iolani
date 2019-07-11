@@ -10,7 +10,7 @@ date: 2019-07-01
 img: WhatDoYouKnowAboutYourTopic.png
 thumbnail: WhatDoYouKnowAboutYourTopic.png
 fontAwesome: fas fa-search 
-iconColor: iconBlueGrey
+iconColor: secondary-dark
 htmlTitle: postHTML/topicExploration.html
 alt: image-alt
 project-date: July 2019
