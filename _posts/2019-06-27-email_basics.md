@@ -15,7 +15,7 @@ htmlTitle: postHTML/emailBasics.html
 alt: image-alt
 project-date: June 2019
 student: Start Bootstrap
-pdf-title: emailBasics.pdf
+pdf-title: 
 description: generic discription for now.
 
 ---
