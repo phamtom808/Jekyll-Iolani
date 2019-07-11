@@ -308,10 +308,10 @@ header {
     background-image: url('{{ site.baseurl }}/img/background.png');
     background-position: center center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 header .intro-text {
@@ -336,6 +336,12 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    header {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
