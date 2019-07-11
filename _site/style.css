@@ -320,7 +320,7 @@ header {
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
-    background-size: contain;
+    background-size: 100% auto;
     -o-background-size: contain;
 }
 
