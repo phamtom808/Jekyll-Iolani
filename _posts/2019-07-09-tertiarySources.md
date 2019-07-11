@@ -10,7 +10,7 @@ date: 2019-07-05
 img: 
 thumbnail: emailBasics.jpg
 fontAwesome: fas fa-newspaper 
-iconColor: googleYellow
+iconColor: googleYellow2
 htmlTitle: postHTML/tertiarySources.html
 alt: image-alt
 project-date: July 2019
