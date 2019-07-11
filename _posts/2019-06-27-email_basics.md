@@ -16,6 +16,6 @@ alt: image-alt
 project-date: June 2019
 student: Start Bootstrap
 pdf-title: 
-description: generic discription for now.
+description: 
 
 ---
