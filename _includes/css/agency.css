@@ -308,10 +308,10 @@ header {
     background-image: url('{{ site.baseurl }}/img/background.png');
     background-position: center center;
     background-repeat: no-repeat;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    background-size: 100% auto;
-    -o-background-size: 100% auto;
+    -webkit-background-size: 135% auto;
+    -moz-background-size: 135% auto;
+    background-size: 135% auto;
+    -o-background-size: 135% auto;
 }
 
 header .intro-text {

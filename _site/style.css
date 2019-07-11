@@ -318,10 +318,10 @@ header {
     background-image: url('/img/background.png');
     background-position: center center;
     background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: 100% auto;
-    -o-background-size: contain;
+    -webkit-background-size: 135% auto;
+    -moz-background-size: 135% auto;
+    background-size: 135% auto;
+    -o-background-size: 135% auto;
 }
 
 header .intro-text {
