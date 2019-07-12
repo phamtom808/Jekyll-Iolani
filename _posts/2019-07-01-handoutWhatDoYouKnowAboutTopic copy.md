@@ -16,6 +16,6 @@ alt: image-alt
 project-date: July 2019
 student: Upper School 
 pdf-title: WhatDoYouKnowAboutYourTopic.pdf
-description: "simple text about the tutorial"
+description: 
 
 ---
